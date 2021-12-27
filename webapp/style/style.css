@@ -1,0 +1,41 @@
+@media  screen  and  (min-width:  1920px)  { body {
+    max-width:  60%; margin:  auto;
+    }
+    }
+
+    @media  screen  and  (min-width:  601px)  {
+        .form-container  {
+        max-width:  500px; margin:  auto;
+        }
+        }
+        .form-container-reg  {
+            max-width:  600px; margin:  auto;
+            }
+
+        .icon {
+                padding: 10px;
+                color: deeppink;
+                min-width: 50px;
+                font-size: 17px;
+                text-align: center;
+            }
+
+        h1{
+                font-family: "Brush MT Script";
+              }
+
+        p{
+                font-family: "Brush MT Script";
+              }
+
+        .w3-grid-template {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+    @media screen and (max-width: 600px) {
+            .w3-grid-template {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                }
+            }
